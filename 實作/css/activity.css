@@ -135,15 +135,15 @@
     overflow: hidden;
     height: 790px;
 }
-.schedule h2{
+.stitle{
     font-family: 'Oswald', sans-serif;
     font-size:5vmin;
     color: #ffffff;
-    text-align: center;
 }
 .list ul li,
 .do ul li{  
     list-style-type:none;  
+    margin: 20px auto;
 }  
 .list{
     font-family: 'Oswald', sans-serif;
@@ -157,7 +157,9 @@
     color: #ffffff;
     font-weight: 500;
 }
-
+table th{
+    height: 1%;
+}
 
 .map h2{
     font-family: 'Oswald', sans-serif;
