@@ -79,9 +79,9 @@
 
 
 .join{
-    padding: 20px;
+    padding: 40px 20px;
     background-color: rgb(188, 231, 123);
-    height: 200px;
+    height: 100%;
 }
 .join p{
     font-family: 'Oswald', sans-serif;
@@ -89,14 +89,16 @@
     font-weight: 500;
     color: #fff9f9;
 }
-.join span{
+.join a{
     font-family: 'Oswald', sans-serif;
     font-size:4vmin;
     font-weight: 500;
     color: #90AC67;
     background-color: #ffffff;
     padding: 5px 15px;
+    margin-bottom: 10px;
     letter-spacing: 2px;
+    text-decoration:none;
 }
 
 #uh{
@@ -133,7 +135,13 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
-    height: 790px;
+    height: 100%px;
+}
+.bi{
+    margin-bottom: 50px;
+}
+.table{
+    margin: 0;
 }
 .stitle{
     font-family: 'Oswald', sans-serif;
@@ -157,10 +165,9 @@
     color: #ffffff;
     font-weight: 500;
 }
-table th{
-    height: 1%;
+.stitle th{
+    padding: 50px;
 }
-
 .map h2{
     font-family: 'Oswald', sans-serif;
     font-size:46px;
@@ -176,7 +183,6 @@ table th{
     background-color: #EEF7E2;
     height: 500px;
 }
-
 /*--------------------------------footer-----------------------------------*/
 .down{
     background: rgb(188, 231, 123);
@@ -197,3 +203,6 @@ table th{
     padding: 20px 0;
 }
 /*--------------------------------footer-----------------------------------*/
+.borderless td, .borderless th {
+    border: none;
+}
