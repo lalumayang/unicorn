@@ -100,6 +100,11 @@
     letter-spacing: 2px;
     text-decoration:none;
 }
+.join a:hover{
+    background-color: #90AC67;
+    color: #ffffff;
+    box-shadow:5px 5px rgb(105, 128, 72);
+}
 
 #uh{
     background-color: #deebbd4f;
@@ -135,10 +140,10 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
-    height: 100%px;
+    height: 100%;
 }
 .bi{
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 .table{
     margin: 0;
@@ -173,7 +178,7 @@
     font-size:46px;
     color: #90AC67;
     font-weight: 500;
-    padding: 220px;
+    padding: 220px 43%;
 }
 .j{
     margin: 0;
@@ -182,6 +187,10 @@
 .word{
     background-color: #EEF7E2;
     height: 500px;
+}
+
+.table thead th{
+    border-bottom: 1px rgba(255, 0, 0, 0) solid;
 }
 /*--------------------------------footer-----------------------------------*/
 .down{

@@ -57,7 +57,8 @@
 .us{
     background: rgb(243, 148, 177);
     height:600px;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 .author{
     margin-bottom:100px; 
