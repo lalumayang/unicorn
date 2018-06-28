@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <title>Unicorn</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,12 +9,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Roboto+Condensed|Concert+One|Quicksand|Alegreya+Sans+SC" rel="stylesheet">
+    <link rel="stylesheet" href="css/type.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Roboto+Condensed" rel="stylesheet">
+    <!--map-->
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+
+    </style>
+    <!--map-->
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-green pad">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pad">
         <a class="navbar-brand" href="index.html">UNICORN</a>
         <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,11 +36,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="activity.html">Activity</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="shop.html">Shop<span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="type.html">Type</a>
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="type.html">Type<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Media</a>
@@ -48,7 +56,7 @@
                         <a class="dropdown-item" href="restaurant.html">Restaurant</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="about.html">Author</a>
@@ -59,87 +67,42 @@
 
         </div>
     </nav>
-    <div id="index_top">
+    <div id="activity_top">
 
-        <div class="index d-flex flex-column align-items-center">
-            <span class="top">UNICORN</span>
-            <span class="mid">
-                <hr style="float:left;width:3em;"/>
-                <font style="float:left;">獨角獸</font>
-                <hr style="float:left;width:3em;"/></span>
+    </div>
+
+    <div class="join">
+        <div class="d-flex justify-content-center col-sm-12 col-md-12 ">
+            <p>TYPE</p>
         </div>
     </div>
 
-    <div class="content">
-        <div class="block">
-            <h2>什麼是獨角獸</h2>
-            <p>獨角獸是一種傳說生物，形象通常為頭上長有獨角的白馬。<br>或是指成立不到 10 年但估值10億美元（$1billion）以上，又未在股票市場上市的科技創業公司，2013年底，風險創投專家Aileen Lee在一篇文章中以此一詞彙形容此類企業，後風行於創業界。
-
-            </p>
-        </div>
-
-        <div class="container author">
+    <div id="uh">
+        <div class="information">
             <div class="row">
-                <div class="col-md-12 col-lg-4 d-flex flex-column align-items-center us">
-                    <img class="pic" src="img/history.png">
-                    <div class="name">
-                        <span>History</span>
-                        <a href="history.html">
-                            <p>More</p>
-                        </a>
+                <div class="col-md-12 col-lg-4 offset-lg-1 d-flex flex-column align-items-center">
+                    <div>
+                        <span class="when">WEST/</span>
+                        <img src="img/west.png">
+                        <p class="time">西方的獨角獸通常被形容為是修長的白馬，額前有一螺旋角(這也是獨角獸的特徵)。關於unicorns的形態有很多不同的說法。有的說牠像一匹大馬，頭上有一隻角，是難以馴服的生物。有些人則認為牠是山羊般的生物，獨角，神聖的生物，有些民族甚至信奉unicorns。古羅馬博物學家普利斯形容unicorns為四肢似大象，獅子尾，上半身像山羊，頭上有一黑螺旋紋的角，是極凶猛的怪獸。
+                        </p>
+
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-4  d-flex flex-column align-items-center us">
-                    <img class="pic" src="img/activity.png">
-                    <div class="name">
-                        <span>Activity</span>
-                        <a href="activity.html">
-                            <p>More</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4  d-flex flex-column align-items-center us">
-                    <img class="pic" src="img/shop.png">
-                    <div class="name">
-                        <span class="shop">Shop</span>
-                        <a href="shop.html">
-                            <p>More</p>
-                        </a>
+                <div class="col-md-12 col-lg-4 offset-lg-2 d-flex flex-column align-items-center">
+                    <div>
+                        <span class="where">EAST/</span>
+                        <img src="img/east.png">
+                        <p class="time">在中國神話中，獨角獸被稱為龍馬，它是一種吉祥之物。它只有在履行重要使命時才出現。它的出現被人們視為美好時代的象徵。當世界和平美好時獨角獸將會重現。中國獨角獸較為複雜，至少有6種形態，而其中最重要的是半雄半雌的麒麟；還有兩種是雄性的麒和雌性的麟。另外還有一種著名的就是獬豸。其它四種分別是白澤、諦聽、貔貅、辟邪。
+                        </p>
+
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 col-lg-4 d-flex flex-column align-items-center us">
-                    <img class="pic" src="img/type.png">
-                    <div class="name">
-                        <span class="type">Type</span>
-                        <a href="type.html">
-                            <p>More</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4  d-flex flex-column align-items-center us">
-                    <img class="pic" src="img/tv.png">
-                    <div class="name">
-                        <span>Media</span>
-                        <a href="tv.html">
-                            <p>More</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4  d-flex flex-column align-items-center us">
-                    <img class="pic" src="img/theme.png">
-                    <div class="name">
-                        <span>Theme</span>
-                        <a href="theme.html">
-                            <p>More</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
+
+
 
 
     <footer>
