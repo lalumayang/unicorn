@@ -50,6 +50,9 @@
 .pic{
     margin: 60px 40px;
 }
+.pic:hover{
+    background-color: #D9B3FF;
+}
 .down{
     background: #D9B3FF;
     max-height: 250px;

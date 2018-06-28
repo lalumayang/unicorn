@@ -76,7 +76,12 @@
     padding: 5px 15px;
     box-shadow: 15px 11px rgb(92, 187, 162);
 }
-
+.book span:hover{
+    text-decoration: none;
+    background-color: rgb(227, 160, 236);
+    color:rgb(250, 250, 250);
+    box-shadow: 15px 11px rgb(217, 86, 235);
+}
 .line {
     border: 7px white solid;
 }
@@ -121,7 +126,7 @@
 }
 
 .to {
-    margin: 50px;
+    margin: 10px;
 }
 
 .photo {

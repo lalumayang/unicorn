@@ -115,7 +115,6 @@
 
 .name a:hover {
     text-decoration: none;
-    background-color:
 }
 
 .pic {
@@ -181,7 +180,7 @@
 
 .bg-green .navbar-brand,
 .bg-green .navbar-text {
-    color: #917da5;
+    color: #351a50;
     font-size: 32px;
 }
 
