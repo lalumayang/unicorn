@@ -1,11 +1,13 @@
 /*--------------------------------nav-----------------------------------*/
 
-body {
+.body {
     background-color: #ffe190;
+    height: 100%;
+    margin: 0;
 }
 
 .pad {
-    padding-left: 90px;
+    padding-left: 50px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -76,14 +78,6 @@ body {
     margin-top: 530px;
 }
 
-.p {
-    margin-top: 205px;
-    background-color: #EEDAE0;
-    height: 300px;
-    width: 300px;
-    padding: 30px;
-}
-
 .title {
     font-family: 'Oswald', sans-serif;
     font-size: 32px;
@@ -103,7 +97,6 @@ body {
 
 .join {
     padding: 40px 20px;
-
     height: 100%;
 }
 
@@ -118,17 +111,9 @@ body {
 }
 
 
-.join a:hover {
-    background-color: #90AC67;
-    color: #ffffff;
-    box-shadow: 5px 5px rgb(105, 128, 72);
-}
-
 .information {
     margin: 0px auto 150px 0;
-    height: 700px;
 }
-
 .when,
 .where,
 .event {
@@ -138,13 +123,15 @@ body {
     letter-spacing: 2px;
     font-weight: 500;
 }
-
 .time {
     padding: 30px 40px;
     font-family: '微軟正黑體', sans-serif;
-    font-size: 3vmin;
+    font-size: 22px;
     color: #5f5a5a;
     background-color: white;
+    overflow:scroll;
+    text-overflow:ellipsis;
+    height:400px;
 }
 
 .explain {
