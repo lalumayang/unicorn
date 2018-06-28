@@ -176,7 +176,7 @@
     color: #917da5;
 }
 
-/*導覽列字顏色*/
+/*首頁導覽列字顏色*/
 
 .bg-green .navbar-brand,
 .bg-green .navbar-text {
@@ -185,7 +185,7 @@
 }
 
 .bg-green .navbar-brand:hover {
-    color: #917da5;
+    color:  #351a50;
 }
 
 /*滑過導覽列變字顏色*/

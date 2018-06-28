@@ -180,7 +180,7 @@ img .when {
 
 
 .information {
-    margin: 100px auto;
+    margin-top:70px; 
     height: auto;
 }
 
@@ -195,7 +195,7 @@ img .when {
 
 .time {
     font-family: '微軟正黑體', sans-serif;
-    font-size: 4vmin;
+    font-size: 3vmin;
     color: #5f5a5a;
     line-height: 5vw;
 }
@@ -218,65 +218,6 @@ img .when {
     height: 100%;
 }
 
-.bi {
-    margin-bottom: 70px;
-}
-
-.table {
-    margin: 0;
-}
-
-.stitle {
-    font-family: 'Oswald', sans-serif;
-    font-size: 5vmin;
-    color: #ffffff;
-}
-
-.list ul li,
-.do ul li {
-    list-style-type: none;
-    margin: 20px auto;
-}
-
-.list {
-    font-family: 'Oswald', sans-serif;
-    font-size: 6vmin;
-    color: #ffffff;
-    font-weight: 500;
-}
-
-.do {
-    font-family: 'Oswald', sans-serif;
-    font-size: 6vmin;
-    color: #ffffff;
-    font-weight: 500;
-}
-
-.stitle th {
-    padding: 50px;
-}
-
-.map h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 46px;
-    color: #90AC67;
-    font-weight: 500;
-    padding: 220px 43%;
-}
-
-.j {
-    margin: 0;
-    padding: 0;
-}
-
-.word {
-    background-color: #EEF7E2;
-    height: 500px;
-}
-
-.table thead th {
-    border-bottom: 1px rgba(255, 0, 0, 0) solid;
-}
 
 /*--------------------------------footer-----------------------------------*/
 
